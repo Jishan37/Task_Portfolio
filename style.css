@@ -1,0 +1,294 @@
+.bannerimg{
+    margin-right: 40px;
+    height: 270px;
+    width: 250px;
+}
+
+.hi{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(88, 82, 82);
+    font-weight: 100;
+}
+
+.about{
+    color: rgb(173, 169, 169);
+}
+
+.name{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10;
+    margin-right: 10;
+}
+
+.button1{
+    border: 2px solid orange;
+    border-radius: 7px;
+    padding: 10px 12px;
+    background-color: white;
+    font-weight: bold;
+    color: orange;
+    text-decoration: 0.5s;
+}
+
+.b2{
+    margin-right: 20px;
+}
+
+.button1:hover{
+    background-color: orange;
+    color: white;
+}
+
+.r{
+    color: orange;
+}
+
+.mary{
+    font-size: 30px;
+}
+
+.navitem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navoptions{
+margin-right: 110px;
+margin-top: 10px;
+}
+
+.navoptions a{
+    text-decoration: none;
+    margin: 8px;
+    color: rgb(107, 105, 105);
+
+}
+
+.navoptions a:hover{
+    background-color: orange;
+    color: white;
+    padding: 10px 12px;
+    border-radius: 8px;
+    transition-duration: .5s;
+}
+
+.full{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px;
+    background-image: url(img/Untitleddesign.png);
+    background-position: center;
+    background-color: rgb(247, 231, 200);
+}
+
+@media only screen and (max-width: 640px)
+{
+    .full{
+        width: 600px;
+        display: flex;
+        justify-content: space-evenly;
+        background-image: none;
+        background-color: rgb(244, 217, 168);
+    }
+}
+
+.sideimg{
+    padding: 15px;
+    height: 320px;
+    
+    margin-top: 35px;
+    margin-right: 40px;
+    margin-left: 20px;
+}
+
+.about2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutinfo{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.p{
+    width: 800px;
+    font-size: 15px;
+    color: rgb(162, 156, 156);
+    text-align: center;
+}
+
+@media only screen and (max-width: 640px)
+{
+    .p{
+        width: 600px;
+        background-color: #676464;
+        font-size: 15px;
+        color: rgb(162, 156, 156);
+        text-align: center;
+    }
+
+    .aboutinfo{
+        display: flex;
+        justify-content: space-between;
+        width: 600px;
+    }
+}
+
+.h3{
+    color: black;
+    font-size: 30px;
+}
+
+#aboutme{
+    margin-top: 300px;
+}
+
+.myinfo{
+    text-align: center;
+}
+
+#whatido{
+    margin-top: 300px;
+}
+
+.whatidoinfo{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+@media only screen and (max-width: 640px)
+{
+    .whatidoinfo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 600px;
+    }
+}
+
+.js{
+    margin-top: 30px;
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.js img{
+    width: 32px;
+}
+
+.js h3{
+    font-size: 17px;
+}
+
+.js p{
+    color: rgb(146, 141, 141);
+}
+
+.res{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+}
+
+.my{
+    display: flex;
+    justify-content: center;
+}
+
+.my1{
+    margin-top: 30px;
+    padding-right: 30px ;
+    color: rgb(91, 89, 89);
+    width: 450px;
+}
+
+.my2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.my2 div{
+    width: 450px;
+    padding-right: 30px;
+    margin-top: 10px;
+}
+
+.p2{
+    color: #938f8f;
+}
+
+.hr{
+    color: rgb(128, 124, 124);
+}
+
+.h4{
+    color: #676464;
+}
+
+@media only screen and (max-width:640px){
+    .my{
+        display: flex;
+        justify-content: center;
+        width: 600px;
+    }
+
+    .my2 div{
+        width: 270px;
+        padding-right: 30px;
+        margin-top: 10px;
+    }
+}
+
+.footer{
+    margin-top: 50px;
+    height: 120px;
+    background-color: rgb(239, 247, 239);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer img{
+    width: 30px;
+    margin-top: 10px;
+    margin-right: 80px;
+    margin-left: 100px;
+    padding: 3px;
+}
+.u{
+    color: #8f8a8a;
+}
+
+@media only screen and (max-width:640px){
+    .footer img{
+        width: 30px;
+        margin-top: 10px;
+        padding: 3px;
+    }
+
+    .footer{
+        margin-top: 50px;
+        height: 220px;
+        background-color: rgb(239, 247, 239);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .img{
+        display: flex;
+        flex-direction: column;
+    }
+}
